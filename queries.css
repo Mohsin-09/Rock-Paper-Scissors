@@ -1,0 +1,55 @@
+/* ////////////////////////////////// */
+/* SMALLER LAPTOP (1146px) */
+/* ////////////////////////////////// */
+@media (max-width: 74em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+/* ////////////////////////////////// */
+/* LANDSCAPE TABLETS (992px) */
+/* ////////////////////////////////// */
+@media (max-width: 62em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+/* ////////////////////////////////// */
+/* PORTRAIT TABLETS (580px) */
+/* ////////////////////////////////// */
+@media (max-width: 36em) {
+  body {
+    white-space: nowrap;
+  }
+
+  .section-game {
+    padding: 0 1.2rem;
+  }
+
+  .fields ul {
+    flex-direction: column;
+  }
+
+  li img {
+    width: 9.8rem;
+    margin-bottom: 0;
+  }
+}
+/* ////////////////////////////////// */
+/* MOBILE (336px) */
+/* ////////////////////////////////// */
+@media (max-width: 21em) {
+  .field p:nth-child(1) {
+    font-size: 2.4rem;
+  }
+
+  .field p:nth-child(2) {
+    font-size: 1.8rem;
+  }
+
+  li img {
+    width: 7.2rem;
+  }
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <section class="section-game">
+      <div class="container">
+        <div class="final-result hidden">
+          <p class="outcome">You win</p>
+          <p class="scores-both">
+            <span class="hidden-score">0</span> :
+            <span class="hidden-score">0</span>
+          </p>
+          <button class="play-again">PLAY AGAIN</button>
+        </div>
+        <div class="fields">
+          <!-- Player one side (left side) -->
+          <div class="field field--1">
+            <p class="scores">Your score <span class="score">0</span></p>
+            <p class="pick">Make a pick</p>
+
+            <ul class="imgs-list">
+              <li>
+                <img
+                  class="img-detail rock"
+                  src="images/img0.png"
+                  alt="Rock image"
+                />
+              </li>
+              <li>
+                <img
+                  class="img-detail paper"
+                  src="images/img1.png"
+                  alt="Paper image"
+                />
+              </li>
+              <li>
+                <img
+                  class="img-detail scissors"
+                  src="images/img2.png"
+                  alt="Scissors image"
+                />
+              </li>
+            </ul>
+
+            <p class="img-name"></p>
+          </div>
+
+          <!-- Player two side (right side) -->
+          <div class="field field--2">
+            <p class="scores">Opp. score <span class="score">0</span></p>
+            <p class="pick">Opp. picked</p>
+
+            <ul class="imgs-list">
+              <li>
+                <img
+                  class="img-detail tick"
+                  src="images/img3.png"
+                  alt="Tick image placeholder"
+                />
+              </li>
+            </ul>
+            <p class="img-name"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

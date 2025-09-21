@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 3.2rem;
+  font-weight: bold;
+  background-color: rgb(217, 215, 229);
+}
+
+.hidden {
+  display: none;
+}
+
+.fields.hidden {
+  display: none;
+}
+
+.container {
+  max-width: 70rem;
+  margin: 5.2rem auto;
+  padding: 2.4rem 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.07);
+}
+
+.final-result {
+  text-align: center;
+}
+
+.final-result p:nth-child(1) {
+  font-size: 3.4rem;
+}
+
+.final-result p:nth-child(2) {
+  font-size: 10.2rem;
+  margin-bottom: 8.2rem;
+}
+
+.final-result button {
+  font-size: 2.4rem;
+  padding: 1.6rem 4rem;
+  border: none;
+  text-transform: uppercase;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  background-color: transparent;
+  border-radius: 0.5rem;
+  margin-bottom: 4.8rem;
+  transition: all 0.3s;
+}
+
+.final-result button:hover {
+  transform: scale(1.1);
+}
+
+.fields {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.fields ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.field p:nth-child(1) {
+  margin: 5.8rem 0;
+}
+
+.field p:nth-child(2) {
+  font-size: 2.3rem;
+  margin-bottom: 3.2rem;
+}
+
+li img {
+  width: 9.8rem;
+  margin-bottom: 4.2rem;
+}
